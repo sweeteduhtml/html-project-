@@ -1,12 +1,32 @@
 body {
     color: white;
-    background: black;
+    background-color:black ;
     margin: 0px;
+    font-family: "Pixelify Sans", sans-serif;
      }
-header {
- border-bottom: solid 2px rgb( 42, 122, 228);
-padding: 20px;
-font-size: 32px;
-color: rgb,(42, 122,228);
+
+     header {
+        border-bottom: solid 2px rgb(42, 122, 228);
+        padding: 20px;
+        font-size: 32px;
+        color: rgb (42, 122, 228);
+     }
+
+     section {
+        background-image:url(omori\ 2.jpg);
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+     } 
+
+    .chamada-texto {
+    margin-right: 8%;
+}
+h1{
+    font-size: 55px;
 }
 
+p {
+    font-size: 30px;
+}
