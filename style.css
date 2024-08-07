@@ -12,7 +12,7 @@ body {
         color: rgb (42, 122, 228);
      }
 
-     section {
+     .chamada {
         background-image:url(omori\ 2.jpg);
         padding-bottom: 80px;
         padding-top: 80px;
@@ -29,4 +29,18 @@ h1{
 
 p {
     font-size: 30px;
+}
+img {
+    height: 200px;
+}
+
+.categoria-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
